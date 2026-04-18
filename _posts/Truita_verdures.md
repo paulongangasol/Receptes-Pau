@@ -3,7 +3,7 @@ date: 18-04-2026
 title: Truita de verdures
 categories:
   - Sopars
-featured_image: /images/truita de verdures.jpeg
+featured_image: /images/truita_de_verdures.jpeg
 recipe:
   servings: 2 racions
   prep: 15 minuts
