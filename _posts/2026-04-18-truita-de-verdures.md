@@ -22,7 +22,3 @@ recipe:
     5. Procedir com una truita de patata normal
 ---
 Bona recepta per sopars quan estas de dieta. 
-
-![Cookie](https://source.unsplash.com/YnrSLOAjOEA)
-
-Delicious!
