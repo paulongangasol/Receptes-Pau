@@ -1,18 +1,13 @@
 .recipes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; // Añade esto para que las recetas se centren si sobran huecos
-
-    .recipe {
-        // Cambia el 240px por el ancho que quieras para cada miniatura
-        flex: 0 1 280px; 
-        height: 200px;   // Aumenta o disminuye la altura de la tarjeta aquí
-        display: inline-block;
-        background-position: center;
-        background-size: cover; 
-        margin: 10px;    // Un poco más de margen suele quedar mejor
-    }
-}
+	display: flex;
+	flex-wrap: wrap;
+	.recipe {
+		flex: 1 0 240px;
+		height: 150px;
+		display: inline-block;
+		background-position: center;
+		background-size: cover;
+		margin: 5px 7px;
 
 		a {
 			width: 100%;
