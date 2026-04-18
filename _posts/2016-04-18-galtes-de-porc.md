@@ -3,7 +3,7 @@ date: 2026-04-18
 title: Galtes de porc al vi
 categories:
   - Carns
-featured_image: /images/galtes_de_porc
+featured_image: /images/galtes_de_porc.jpeg
 recipe:
   servings: 4 persones
   prep: 20 minuts
