@@ -15,3 +15,14 @@
 		flex: 1;
 	}
 }
+
+/* Limitar el tamaño de la imagen destacada en la receta */
+.post-heading img {
+    display: block;
+    max-width: 500px; /* Ajusta este número a tu gusto (ej. 400px, 600px...) */
+    width: 100%;      /* Esto asegura que en móviles no se salga de la pantalla */
+    height: auto;     /* Mantiene la proporción */
+    margin: 20px auto; /* La separa del texto y la centra */
+    border-radius: 12px; /* Le da un toque redondeado moderno */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra suave para que quede profesional */
+}
