@@ -1,8 +1,10 @@
-<nav>
-	<a href="/" style="display: block; margin-bottom: 20px;">
-		<img src="/logo.png" alt="Logo" style="max-height: 80px; width: auto;">
+<div style="text-align: center; padding: 20px 0;">
+	<a href="{{ site.baseurl }}/">
+		<img src="{{ '/logo.png' | relative_url }}" alt="Logo Receptari" style="max-height: 100px; width: auto; display: inline-block;">
 	</a>
+</div>
 
+<nav>
 	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
