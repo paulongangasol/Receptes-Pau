@@ -31,8 +31,3 @@ recipe:
     7. Servir amb pure de patates o patates fregides
 ---
 
-Milk is a great addition to any cupcake experience.
-
-![Cupcakes](https://images.unsplash.com/photo-1457508252818-162dc1934c2f?w=1560&h=940&fit=crop)
-
-Why not add some popcorn?
