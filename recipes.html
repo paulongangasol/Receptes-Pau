@@ -4,15 +4,17 @@ image_view: true
 ---
 <h1>Recipes</h1>
 
-
-
 {% if page.image_view %}
 	{% for category in site.categories %}
-		<h2>{{ category[0] }}</h2>
-		<div class="recipes">
+		<h2 style="clear: both; padding-top: 20px;">{{ category[0] }}</h2>
+		<div class="recipes" style="display: flex; flex-wrap: wrap; gap: 20px;">
 			{% for recipe in category[1] %}
-				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
-					<a href="{{ site.baseurl }}{{ recipe.url }}"><span>{{ recipe.title }}</span></a>
+				<div class="recipe" style="background-image: url('{{ recipe.featured_image | relative_url }}'); background-size: cover; background-position: center; width: 300px; height: 200px; position: relative; border-radius: 8px; overflow: hidden;">
+					<a href="{{ site.baseurl }}{{ recipe.url }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+						<span style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: white; padding: 10px; text-align: center;">
+							{{ recipe.title }}
+						</span>
+					</a>
 				</div>
 			{% endfor %}
 		</div>
