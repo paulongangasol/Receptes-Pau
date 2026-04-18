@@ -23,14 +23,6 @@ recipe:
 ---
 Bona recepta per sopars quan estas de dieta. 
 
-![Cookie](https://source.unsplash.com/euGck1ifvp0)
-
-Carefully placing them on the tray.
-
-![Cookie](https://source.unsplash.com/RUPPakds28k)
-
-Little Gavin loves them.
-
 ![Cookie](https://source.unsplash.com/YnrSLOAjOEA)
 
 Delicious!
