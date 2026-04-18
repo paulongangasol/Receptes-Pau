@@ -2,12 +2,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	.recipe {
-		flex: 1 0 300px;
-		height: 200px;
+		flex: 1 0 240px;
+		height: 150px;
 		display: inline-block;
 		background-position: center;
 		background-size: cover;
 		margin: 5px 7px;
+		border-radius: 12px;
+		overflow: hidden
 
 		a {
 			width: 100%;
