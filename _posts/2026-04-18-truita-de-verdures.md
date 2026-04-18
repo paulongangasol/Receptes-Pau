@@ -21,4 +21,3 @@ recipe:
     4. Tirar la mescla en una paella antiaderent amb un raig d'oli d'oliva
     5. Procedir com una truita de patata normal
 ---
-Bona recepta per sopars quan estas de dieta. 
