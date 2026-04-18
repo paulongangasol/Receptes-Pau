@@ -25,11 +25,18 @@
 		{% endif %}
 	</head>
 	<body>
-		<script>
-  var password = prompt("Benvingut al Receptari de Pau. Introdueix la contrasenya:");
-  if (password != "paulongangasol") {
-    alert("Contrasenya incorrecta.");
-    window.location.href = "https://google.com"; // Lo expulsa si falla
+<script>
+  // Comprobamos si ya ha puesto la contraseña correctamente en esta sesión
+  if (sessionStorage.getItem('acceso_concedido') !== 'true') {
+    var password = prompt("Benvingut al Receptari de Pau. Introdueix la contrasenya:");
+    
+    if (password === "paulongangasol") {
+      // Guardamos en la memoria del navegador que ya puede pasar
+      sessionStorage.setItem('acceso_concedido', 'true');
+    } else {
+      alert("Contrasenya incorrecta.");
+      window.location.href = "https://google.com";
+    }
   }
 </script>
 		{% include navigation.html %}
