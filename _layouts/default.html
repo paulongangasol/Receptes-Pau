@@ -25,6 +25,13 @@
 		{% endif %}
 	</head>
 	<body>
+		<script>
+  var password = prompt("Benvingut al Receptari de Pau. Introdueix la contrasenya:");
+  if (password != "TU_CONTRASEÑA_AQUÍ") {
+    alert("Contrasenya incorrecta.");
+    window.location.href = "https://google.com"; // Lo expulsa si falla
+  }
+</script>
 		{% include navigation.html %}
 
 		<header style="text-align: center; padding: 30px 0;">
