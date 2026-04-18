@@ -38,7 +38,3 @@ recipe:
     1. Agafar uns 60g de massa i fer les empanades amb el *repulgue* que vulguem. Vigilar que no quedi aire a dins.
     2. Fregir en oli de girasol o fornejar a 200°C fins que estiguin daurades.
 ---
-
-![Cake](https://source.unsplash.com/7JYVKRo7i5Q)
-
-Or a caramel sauce.
